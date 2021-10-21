@@ -1,4 +1,4 @@
-package controller.request;
+package football.team.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,7 +1,7 @@
-package service;
+package football.team.service;
 
+import football.team.repository.ShoeRepository;
 import org.springframework.stereotype.Service;
-import repository.ShoeRepository;
 
 @Service
 public class ShoeService {

@@ -1,4 +1,4 @@
-package model;
+package football.team.model;
 
 import lombok.*;
 
@@ -12,18 +12,18 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table(name ="Shoe")
+@Table(name = "Shoe")
 @Entity
 public class Shoe {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private String name;
     @ManyToMany
     @JoinTable(
-            name="players_shoes",
-            joinColumns = @JoinColumn(name="shoe_id"),
-            inverseJoinColumns = @JoinColumn(name="player_id")
+            name = "players_shoes",
+            joinColumns = @JoinColumn(name = "shoe_id"),
+            inverseJoinColumns = @JoinColumn(name = "player_id")
     )
-    private String name;
     private Set<Player> playerShoes = new HashSet<>();
 }

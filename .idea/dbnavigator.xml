@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -26,7 +26,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="46ac8259-ed67-45d2-b27b-558ac4f5e49a">
-        <schema name="footbal-team" object-types="table, view, procedure, function" />
+        <schema name="shelter" object-types="table, view, procedure, function" />
       </connection>
     </loaded-nodes>
   </component>
@@ -80,10 +80,10 @@
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="3306" />
-          <database value="mysql" />
+          <database value="shelter" />
           <type value="USER_PASSWORD" />
           <user value="root" />
-          <deprecated-pwd value="NTYxN25ld0xJRkUh" />
+          <deprecated-pwd value="QWJjLjEyMw==" />
         </database>
         <properties>
           <auto-commit value="false" />

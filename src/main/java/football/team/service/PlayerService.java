@@ -1,9 +1,8 @@
-package service;
+package football.team.service;
 
-import controller.request.PlayerRQ;
-import model.Player;
+import football.team.model.Player;
+import football.team.repository.PlayerRepository;
 import org.springframework.stereotype.Service;
-import repository.PlayerRepository;
 
 import java.util.List;
 import java.util.Optional;

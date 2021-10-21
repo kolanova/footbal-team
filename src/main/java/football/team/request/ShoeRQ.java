@@ -1,4 +1,4 @@
-package controller.request;
+package football.team.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class PlayerRQ {
+public class ShoeRQ {
     private String name;
 }

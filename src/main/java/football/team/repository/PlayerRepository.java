@@ -1,5 +1,5 @@
-package repository;
-import model.Player;
+package football.team.repository;
+import football.team.model.Player;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
